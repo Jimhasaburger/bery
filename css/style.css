@@ -21,3 +21,8 @@ h1 {
 h1 .header-title {
     margin-left: 25px;
 }
+
+p {
+    color: #bbbbbb;
+    font-size: 18px;
+}
