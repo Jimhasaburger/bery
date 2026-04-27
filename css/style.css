@@ -13,9 +13,13 @@ header {
     display: flex;
 }
 
+.hero {
+    padding: 20px;
+}
+
 h1 {
     color: #fff;
-    margin-left: 10px;
+    margin-left: 25px;
 }
 
 h1 .header-title {
