@@ -252,3 +252,35 @@ p {
         font-size: 15px;
     }
 }
+
+.navigationContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+    z-index: 1000;
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
+}
+
+.navigationIconText,
+.navigationButtonText {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.navigationButton {
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+.navigationButton:hover {
+    background: white;
+    color: black;
+}
