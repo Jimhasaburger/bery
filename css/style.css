@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     background: #151515;
     color: #e4e4e4;
-    overflow: none;
+    overflow: hidden;
 }
 
 header {
